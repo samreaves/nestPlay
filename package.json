@@ -4,8 +4,12 @@
   "description": "Playing with Nest API",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node index.js"
   },
   "author": "Sam Reaves <thesamreaves@gmail.com> (http://www.github.com/samreaves)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nest-thermostat": "0.2.1"
+  }
 }
